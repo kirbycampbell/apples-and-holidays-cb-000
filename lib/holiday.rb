@@ -76,6 +76,5 @@ def all_holidays_with_bbq(holiday_hash)
         event if grill.include?("BBQ")
         end
       end
-    end
-    .flatten.compact
+    end.flatten.compact
 end
