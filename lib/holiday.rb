@@ -49,7 +49,7 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash[:winter].map do |event, supply|
     supply
   end
-  holiday_hash.flatten
+  .flatten
 end
 
 def all_supplies_in_holidays(holiday_hash)
